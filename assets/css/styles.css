@@ -1,0 +1,70 @@
+
+.container {
+    display: flex;
+    height: 450px;
+}
+
+.component-contacts {
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.card-contacts {
+    align-items: center;
+    width: 250px;
+    min-height: 100%;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image {
+    flex-grow: 1;
+    padding-top: 100px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 100px;
+
+}
+
+.component-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.numbers {
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+
+}
+
+.contr, .foll, .rep {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    align-items: center;
+}
+
+.info {
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.card-about > p {
+    text-align: justify;
+}
+
+.btn {
+    border-radius: 0;
+}

@@ -10,11 +10,14 @@
 }
 
 .card-contacts {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     width: 250px;
     min-height: 100%;
 }
 .card-body {
+    justify-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: center;

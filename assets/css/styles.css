@@ -4,28 +4,24 @@
     height: 450px;
 }
 
-.component-contacts {
-    flex-grow: 1;
+.cell-card {
     margin: 5px;
 }
 
-.card-contacts {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.component-card {
     width: 250px;
     min-height: 100%;
-}
-.card-body {
-    justify-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin: auto;
 }
 
-.image {
-    flex-grow: 1;
-    padding-top: 100px;
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 img {
@@ -70,4 +66,5 @@ img {
 
 .btn {
     border-radius: 0;
+    display: block;
 }
